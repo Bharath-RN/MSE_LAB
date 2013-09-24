@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        
     }
     return self;
 }
@@ -28,7 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [userName setText:_name];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ima.jpeg"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bharath.jpeg"]];
 }
 - (IBAction)onClick:(id)sender {
     [self willMoveToParentViewController:nil];

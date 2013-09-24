@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"run.jpeg"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bharath.jpeg"]];
     // Do any additional setup after loading the view, typically from a nib.
     
 }
@@ -32,7 +32,7 @@
         NSLog(@"This is it!");
     }
     else{
-        UIAlertView *alrt= [[UIAlertView alloc]initWithTitle:@"LOGIN ERROR" message:@"invalid login credentials" delegate:nil cancelButtonTitle:@"TRY again" otherButtonTitles:nil];
+        UIAlertView *alrt= [[UIAlertView alloc]initWithTitle:@"ERROR" message:@"invalid login credentials" delegate:nil cancelButtonTitle:@"TRY again" otherButtonTitles:nil];
         [alrt show];
     }
 }
